@@ -1,0 +1,14 @@
+{
+  "name": "postcard",
+  "version": "1.0.0",
+  "description": "postcard server generation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hien Ngo",
+  "license": "ISC",
+  "dependencies": {
+    "gm": "^1.22.0"
+  }
+}
