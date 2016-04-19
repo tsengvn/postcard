@@ -9,6 +9,7 @@
   "author": "Hien Ngo",
   "license": "ISC",
   "dependencies": {
+    "formidable": "^1.0.17",
     "gm": "^1.22.0"
   }
 }
