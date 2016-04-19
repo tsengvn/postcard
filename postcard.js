@@ -21,7 +21,7 @@ module.exports = {
  	.drawRectangle(0, 230, 540, 270)
  	.write('temp.png', function(error) {
  		if (error) console.log(error);
-		console.log('new new ')
+		console.log('done resize')
  		gm()
  		.out('-background','transparent')
  		.out('-gravity', 'center')

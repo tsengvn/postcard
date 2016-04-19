@@ -5,6 +5,10 @@ const port = process.env.PORT || 3000
 const postcard = require('./postcard')
 const fs = require('fs')
 
+if (!fs.existsSync('img')){
+    fs.mkdirSync('img');
+}
+
 const server = http.createServer((req, res) => {
 	var headers = req.headers
 	var method = req.method
