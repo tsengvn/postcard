@@ -31,7 +31,12 @@ module.exports = {
  		.out('-gravity', 'north')
  		.out('-composite')
  		.out('-gravity', 'SouthWest')
- 		.out('-draw', 'image Over 0,0 40,40 givn.png')
+ 		.out('-draw', 'image Over 30,30 110,110 logo.jpeg')
+ 		.out('-fill', 'white')
+ 		.out('-draw', 'rectangle 30,245 138,260')
+ 		.out('-fill', '#cccc00')
+ 		.out('-font', 'fontawesome-webfont.ttf')
+ 		.out('-draw', 'text 40, 10 "    "')
  		.out('-gravity', 'SouthEast')
  		.out('-draw', 'image Over 0,0 40,40 givn.png')
  		.write(imgOut, callback);
